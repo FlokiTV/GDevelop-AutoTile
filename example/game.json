@@ -230,10 +230,10 @@
           "type": "AutoTile::AutoTile"
         },
         {
-          "canBeGrabbed": true,
           "name": "Platform",
-          "platformType": "NormalPlatform",
           "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
           "yGrabOffset": 0
         }
       ],
@@ -777,6 +777,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 200,
               "canGrabPlatforms": false,
               "deceleration": 1300,
@@ -787,10 +789,8 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 200,
               "maxSpeed": 150,
-              "name": "PlatformerObject",
               "roundCoordinates": true,
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
@@ -1082,7 +1082,7 @@
         "gridWidth": 16,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 2.5800000000000014
+        "zoomFactor": 2.5600000000000014
       },
       "objectsGroups": [],
       "variables": [],
@@ -2540,6 +2540,10 @@
         {
           "name": "AutoTile",
           "type": "AutoTile::AutoTile"
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         }
       ]
     }
@@ -3041,8 +3045,8 @@
       "eventsFunctions": [],
       "eventsBasedBehaviors": [
         {
-          "description": "",
-          "fullName": "",
+          "description": "This will auto setup your animations to make auto tile",
+          "fullName": "Auto Tile",
           "name": "AutoTile",
           "objectType": "Sprite",
           "eventsFunctions": [
@@ -3054,190 +3058,6 @@
               "private": false,
               "sentence": "",
               "events": [
-                {
-                  "colorB": 228,
-                  "colorG": 176,
-                  "colorR": 74,
-                  "creationTime": 0,
-                  "disabled": true,
-                  "folded": false,
-                  "name": "tint",
-                  "source": "",
-                  "type": "BuiltinCommonInstructions::Group",
-                  "events": [
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "tile",
-                            "=",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeColor"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"255;255;255\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "tile",
-                            "=",
-                            "1"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeColor"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"208;2;27\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "tile",
-                            "=",
-                            "2"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeColor"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"126;211;33\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "tile",
-                            "=",
-                            "3"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeColor"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"74;144;226\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    },
-                    {
-                      "disabled": false,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "VarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "tile",
-                            "=",
-                            "4"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ChangeColor"
-                          },
-                          "parameters": [
-                            "Object",
-                            "\"248;231;28\""
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ],
-                  "parameters": []
-                },
                 {
                   "disabled": false,
                   "folded": false,
@@ -3336,7 +3156,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -3527,7 +3347,7 @@
                 },
                 {
                   "disabled": false,
-                  "folded": true,
+                  "folded": false,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -4340,30 +4160,7 @@
                       "subInstructions": []
                     }
                   ],
-                  "events": [
-                    {
-                      "disabled": true,
-                      "folded": false,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [],
-                      "actions": [
-                        {
-                          "type": {
-                            "inverted": false,
-                            "value": "ModVarObjet"
-                          },
-                          "parameters": [
-                            "Object",
-                            "tile",
-                            "=",
-                            "0"
-                          ],
-                          "subInstructions": []
-                        }
-                      ],
-                      "events": []
-                    }
-                  ]
+                  "events": []
                 },
                 {
                   "disabled": false,
@@ -4419,21 +4216,7 @@
                       ]
                     }
                   ],
-                  "actions": [
-                    {
-                      "type": {
-                        "inverted": false,
-                        "value": "ModVarObjet"
-                      },
-                      "parameters": [
-                        "Object",
-                        "tile",
-                        "+",
-                        "1"
-                      ],
-                      "subInstructions": []
-                    }
-                  ],
+                  "actions": [],
                   "events": [
                     {
                       "disabled": false,
