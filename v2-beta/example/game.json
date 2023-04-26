@@ -1,0 +1,717 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.examples.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "9ad9c4d6-dde5-4d6a-90db-62d66c110ce8",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Platform",
+    "description": "",
+    "author": "",
+    "windowWidth": 640,
+    "windowHeight": 480,
+    "latestCompilationDirectory": "",
+    "maxFPS": 0,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "c_dead-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c_dead-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-2.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-9.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-10.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-12.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-17.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-17.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-17.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-18.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-18.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-18.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-19.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-19.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-19.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-20.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-20.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-20.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-22.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-22.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-22.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-27.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-27.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-28.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-28.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-29.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-29.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-29.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-30.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-30.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-34.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-34.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-34.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-39.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-39.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-39.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-40.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-40.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-40.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/xy-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/xy-1.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\xy-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-21.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-21.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-21.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-1.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_grass/tile_grass-3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_grass/tile_grass-3.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_grass\\tile_grass-3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "c_box-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c_box-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "c_box-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c_box-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "c_box-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "c_box-1-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_new_grass/corner_x2y-1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_new_grass/corner_x2y-1.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_new_grass\\corner_x2y-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_new_grass/corner_x2y-2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_new_grass/corner_x2y-2.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_new_grass\\corner_x2y-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_new_grass/corner_xy-26.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_new_grass/corner_xy-26.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_new_grass\\corner_xy-26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_new_grass/corner_xy-36.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_new_grass/corner_xy-36.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_new_grass\\corner_xy-36.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiles/World 1/new_new_grass/corner_xy-25.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/tiles/World 1/new_new_grass/corner_xy-25.png\",\"extension\":\".png\"}",
+        "name": "assets\\tiles\\World 1\\new_new_grass\\corner_xy-25.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/y.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "y",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/y2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "y2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/y3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "y3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/x.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "x",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/x2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "x2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/x3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "x3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/y2x.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "y2x",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/y2x2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "y2x2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ramp_xy.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ramp_xy.png\"}",
+        "name": "ramp_xy",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ramp_xy3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/ramp_xy3.png\"}",
+        "name": "ramp_xy3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ramp.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ramp",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ramp2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ramp2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/corner_y2x.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "corner_y2x",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/corner_y2x2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "corner_y2x2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/corner.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "corner",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/corner2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "corner2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/corner3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "corner3",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "c_box",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ],
+      "animations": [
+        {
+          "name": "c_box",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "c_box-1-0.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "c_box_1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "c_box-2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15.699999809265137,
+                        "y": 0
+                      },
+                      {
+                        "x": 16,
+                        "y": 10.600000381469727
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "c_box-1-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 8.100000381469727,
+                        "y": 8
+                      },
+                      {
+                        "x": 16,
+                        "y": 16
+                      },
+                      {
+                        "x": 0,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "c_dead",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "c_dead",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "c_dead-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsGroups": [
+    {
+      "name": "chunk",
+      "objects": [
+        {
+          "name": "c_box"
+        }
+      ]
+    },
+    {
+      "name": "debug_tools",
+      "objects": [
+        {
+          "name": "debug"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/rectangularfloodfill"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotile"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
